@@ -10,17 +10,8 @@
 </head>
 <body ng-app="flapperNews">
 
-  <div>
-    <div ng-include="'../templates/_nav.html'"></div>
-
-  </div>
-  
-  <div>
-    <div ng-include="'../templates/home.html'"></div>
-  </div>
-
-  <div ng-view>
-  </div>
+  <div ng-include="'../templates/_nav.html'"></div>
+  <ui-view></ui-view>
 
 </body>
 </html>
