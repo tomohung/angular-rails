@@ -12,7 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require main
 //= require angular
 //= require angular-ui-router
+//= require angular-rails-templates
+//= require angular-devise
+//= require main
 //= require_tree .
